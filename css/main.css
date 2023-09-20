@@ -29,6 +29,8 @@ grid-template-columns: auto auto auto;
 }
 
 .button {
+    display: grid ;
+    grid-template-columns: auto auto auto;
     background-color:darkcyan;
     width: 100px;
     padding: 20px;
@@ -60,4 +62,5 @@ grid-template-columns: auto auto auto;
 .topnav a.active {
     background-color: #420fce;
     color: white;
-  }
+}
+
