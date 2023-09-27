@@ -1,7 +1,12 @@
 /* farge på overskrift*/
 h1 {
     color:cadetblue;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(132, 7, 117);
 }
 
 h3 {
@@ -30,7 +35,6 @@ grid-template-columns: auto auto auto;
 
 .button {
     display: grid ;
-    grid-template-columns: auto auto auto;
     background-color:darkcyan;
     width: 100px;
     padding: 20px;
@@ -64,3 +68,30 @@ grid-template-columns: auto auto auto;
     color: white;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+a {
+  color: #f8a92b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subnav-menu {
+    display:none;
+}
+
+.subnav-main:hover .subnav-menu{
+    display:block;
+    margin-top:45px;
+    margin-left:auto;
+}
