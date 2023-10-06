@@ -56,16 +56,18 @@ grid-template-columns: auto auto auto;
     text-decoration: none;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+    border: 1px solid cyan;
 }
 
 .topnav a:hover {
-    background-color: #c7bbbb;
+    background-color: #b17dc6;
     color: black;
 }
 
 .topnav a.active {
     background-color: #420fce;
     color: white;
+    border: 1px solid cyan;
 }
 
 body {
@@ -85,13 +87,74 @@ a {
   color: #f8a92b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.subnav-main {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav-main .subnav {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border: 1px solid rgb(166, 222, 246);
+}
 
 .subnav-menu {
-    display:none;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #a93ad4;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-.subnav-main:hover .subnav-menu{
-    display:block;
-    margin-top:45px;
-    margin-left:auto;
+.subnav-menu a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
+
+.subnav-menu a:hover {
+    background-color: #b866d8;
+}
+
+.subnav-main:hover .subnav-menu {
+    display: block;
+}
+
+#h1game {
+    color: #a93ad4;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagecontainer {
+    display: grid ;
+    grid-template-columns: auto auto;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.imagecontainer img {
+
+}
+
+#imgval {
+width: 400px;
+height: 270px;
+}
+
+#sekiroimg {
+    width: 270px;
+    height: 270px;
+}
+
