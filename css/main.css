@@ -155,3 +155,11 @@ height: 270px;
     height: 270px;
 }
 
+.videocontainer {
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
