@@ -16,9 +16,8 @@ h3 {
 }
 
 img {
-    width: 250px;
-    height: 350px;
-    border-radius: 75px;
+    width: 200px;
+    height: 200px;
 }
 
 .subjectcontainer {
@@ -200,4 +199,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imgmeg {
+    width: 250px;
+    height: 350px;
+    border-radius: 75px;
 }
