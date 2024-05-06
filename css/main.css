@@ -1,23 +1,21 @@
 body {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: #5164AE;
 }
 
 /* farge på overskrift*/
 h1 {
-    color: cadetblue;
+    color: #349DD8;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(132, 7, 117);
+    color: #C6C4E0;
 }
 
 h3 {
-    color: deeppink;
+    color: #C6C4E0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -26,61 +24,33 @@ img {
     height: 200px;
 }
 
-.subjectcontainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.subjectbox {
-    border: 2px solid red;
-}
-
-#middlebox {
-    border: 2px solid blueviolet;
-    color: blueviolet;
-}
-
-.button {
-    display: grid;
-    background-color: darkcyan;
-    width: 100px;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid cyan;
-}
 
 .topnav {
-    background-color: #a93ad4;
+    background-color: #232663;
     overflow: hidden;
     align-self: center;
-<<<<<<< HEAD
     border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.topnav a {
-=======
-  }
   
   .topnav a {
->>>>>>> parent of 4fe0663 (hello)
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif 1px solid cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif 1px solid;
 }
 
 .topnav a:hover {
-    background-color: #b17dc6;
+    background-color: #3C4DA1;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topnav a.active {
-    background-color: #420fce;
+    background-color: #3951A3;
     color: white;
 }
 
@@ -95,29 +65,18 @@ main {
 }
 
 footer {
-<<<<<<< HEAD
     margin-top: auto;
     background-color: #201e1e35;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-=======
-  margin-top: auto;
-}
->>>>>>> parent of 4fe0663 (hello)
-a {
-    color: #f8a92b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .subnav-main {
     float: left;
     overflow: hidden;
-<<<<<<< HEAD
     ;
-=======
->>>>>>> parent of 4fe0663 (hello)
 }
 
 .subnav-main .subnav {
@@ -130,19 +89,16 @@ a {
     font-family: inherit;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 4fe0663 (hello)
 }
 
 .subnav-menu {
     display: none;
     position: absolute;
     min-width: 160px;
-    background-color: #b85fe5;
+    background-color: #232663;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .subnav-menu a {
@@ -154,19 +110,13 @@ a {
 }
 
 .subnav-menu a:hover {
-    background-color: #e1a7f9;
+    background-color: #3C4DA1;
 }
 
 .subnav-main:hover .subnav-menu {
     display: block;
 }
 
-#h1game {
-    color: #a93ad4;
-    margin: 50px;
-    padding: 10px;
-    text-align: center;
-}
 
 .imagecontainer {
     display: grid;
@@ -176,16 +126,6 @@ a {
     margin: auto;
 }
 
-
-#imgval {
-    width: 400px;
-    height: 270px;
-}
-
-#sekiroimg {
-    width: 270px;
-    height: 270px;
-}
 
 .videocontainer {
     display: grid;
@@ -204,14 +144,14 @@ a {
 }
 
 h2 {
-    color: #772498;
+    color: #232663;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: xx-large;
 }
 
 .knapp {
-    background-color: rgb(180, 34, 216);
+    background-color: #232663;
     border: 0;
     border-radius: 25px;
     color: white;
@@ -245,4 +185,31 @@ h2 {
 #monog {
     width: 350px;
     height: 250px;
+}
+
+.omtekst {
+color: #C6C4E0;
+}
+
+.temafarge {
+    color: #C6C4E0;
+}
+
+.boks {
+width: 20vw;
+
+}
+.boks img hover {
+    scale: 1.2;
+}
+
+.boksar {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    gap: 20px;
 }
