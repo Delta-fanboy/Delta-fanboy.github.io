@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'digital-7-font';
+    src: url('/font/digital-7.ttf');
+}
+
 body {
-background-color: #5164AE;
+    background-color: #5164AE;
 }
 
 /* farge på overskrift*/
@@ -33,7 +38,7 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
-  .topnav a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -45,7 +50,7 @@ img {
 
 .topnav a:hover {
     background-color: #3C4DA1;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -212,4 +217,16 @@ width: 20vw;
     text-align: center;
     margin: auto;
     gap: 20px;
+}
+
+.sigma p {
+    color: #C6C4E0;
+    font-family: 'digital-7-font';
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    letter-spacing: 3px;
+    margin-left: 3%;
 }
